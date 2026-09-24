@@ -1,1 +1,3 @@
-"# Hotel_Booking" 
+Small businesses that rent out bookable resources — meeting rooms, coworking desks, studio equipment, tutoring slots, salon chairs — usually end up managing bookings in a shared spreadsheet or a generic calendar tool that doesn't understand pricing, capacity, or double-booking prevention. We're building BookNest: a multi-tenant resource-booking platform where Providers list bookable resources with recurring availability, Customers search/filter and book time slots with real-time conflict prevention, and Admins moderate the catalog.
+
+This is deliberately more interesting than a to-do app because it forces you to defend, in an interview, how you prevent two customers from booking the same room at the same time under concurrent requests — a genuinely hard distributed-systems-adjacent problem, not just a CRUD form.
