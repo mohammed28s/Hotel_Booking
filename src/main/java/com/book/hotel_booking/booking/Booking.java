@@ -49,5 +49,4 @@ public class Booking {
     private Instant createdAt = Instant.now();
 
 
-
 }
