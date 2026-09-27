@@ -27,7 +27,7 @@ public class User {  // User info attributes
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Role role;
+    private Role role;     // This is being the one of the these users: CUSTOMER, PROVIDER AND ADMIN
 
     @Column(nullable = false)
     private Boolean enabled = true;
