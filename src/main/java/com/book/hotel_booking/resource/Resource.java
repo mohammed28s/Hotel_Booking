@@ -1,6 +1,7 @@
 package com.book.hotel_booking.resource;
 
 
+import com.book.hotel_booking.category.Category;
 import com.book.hotel_booking.user.User;
 import jakarta.persistence.*;
 import lombok.Data;
